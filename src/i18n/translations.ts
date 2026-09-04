@@ -7,6 +7,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'header.rental': 'Location',
     'header.accessories': 'Accessoires',
     'header.contact': 'Contact',
+    'header.videos': 'Vidéos',
     'header.whatsapp': 'Chat sur WhatsApp',
 
     'hero.slogan': 'Vente & Location de Véhicules Américains et Européens',
@@ -34,6 +35,11 @@ export const translations: Record<Language, Record<string, string>> = {
     'timbi.description': 'Tapis de sol personnalisés • Couvre-volants • Parfum auto • Batteries (Solite/Amaron/Varta)',
     'timbi.cta': 'Consulter Accessoires',
 
+    'videos.title': 'Nos Vidéos & Arrivages',
+    'videos.subtitle': 'Découvrez nos derniers arrivages et véhicules en vidéo, directement depuis notre page Facebook.',
+    'videos.watch_facebook': 'Voir sur Facebook',
+    'videos.follow_cta': 'Suivez-nous sur Facebook pour ne manquer aucun arrivage',
+
     'footer.address': 'Nongo Conteah, Conakry, Guinée',
     'footer.phone': 'Téléphone / WhatsApp',
     'footer.copyright': '© 2024 Planet Auto Guinea. Tous droits réservés.',
@@ -51,6 +57,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'header.rental': 'Rental',
     'header.accessories': 'Accessories',
     'header.contact': 'Contact',
+    'header.videos': 'Videos',
     'header.whatsapp': 'Chat on WhatsApp',
 
     'hero.slogan': 'Sale & Rental of American & European Vehicles',
@@ -77,6 +84,11 @@ export const translations: Record<Language, Record<string, string>> = {
     'timbi.title': 'Timbi Store - Car Accessories',
     'timbi.description': 'Custom floor mats • Steering covers • Car fresheners • Batteries (Solite/Amaron/Varta)',
     'timbi.cta': 'Browse Accessories',
+
+    'videos.title': 'Our Videos & New Arrivals',
+    'videos.subtitle': 'Check out our latest arrivals and vehicles on video, straight from our Facebook page.',
+    'videos.watch_facebook': 'Watch on Facebook',
+    'videos.follow_cta': 'Follow us on Facebook to catch every new arrival',
 
     'footer.address': 'Nongo Conteah, Conakry, Guinea',
     'footer.phone': 'Phone / WhatsApp',

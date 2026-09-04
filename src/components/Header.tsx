@@ -16,6 +16,7 @@ export default function Header() {
     { key: 'header.home', href: '#home' },
     { key: 'header.stock', href: '#inventory' },
     { key: 'header.rental', href: '#inventory' },
+    { key: 'header.videos', href: '#videos' },
     { key: 'header.accessories', href: '#timbi' },
     { key: 'header.contact', href: '#contact' },
   ];

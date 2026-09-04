@@ -58,6 +58,14 @@ export default function Footer() {
               </li>
               <li>
                 <a
+                  href="#videos"
+                  className="text-gray-text hover:text-crimson transition-colors"
+                >
+                  {t('header.videos', language)}
+                </a>
+              </li>
+              <li>
+                <a
                   href="#timbi"
                   className="text-gray-text hover:text-crimson transition-colors"
                 >
