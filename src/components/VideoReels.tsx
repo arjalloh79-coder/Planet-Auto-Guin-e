@@ -13,6 +13,8 @@ const REEL_URLS = [
   'https://www.facebook.com/reel/1345949210968547',
 ];
 
+const FACEBOOK_PAGE_URL = 'https://www.facebook.com/PlanetAutoGuinea';
+
 function embedSrc(reelUrl: string): string {
   return `https://www.facebook.com/plugins/video.php?height=476&href=${encodeURIComponent(
     reelUrl
@@ -67,7 +69,14 @@ export default function VideoReels() {
 
         {/* Follow CTA */}
         <div className="text-center mt-8">
-          <p className="text-gray-text text-sm">📘 {t('videos.follow_cta', language)}</p>
+          <a
+            href={FACEBOOK_PAGE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline inline-block"
+          >
+            📘 {t('videos.follow_cta', language)}
+          </a>
         </div>
       </div>
     </section>
