@@ -16,6 +16,12 @@ Each vehicle in `data/vehicles.json` lists the exact filenames it expects in its
 - `acura-mdx-engine.jpg`
 - `acura-mdx-interior.jpg`
 
+**Hyundai Tucson (white)** — year/mileage still need confirming, see `data/vehicles.json`
+- `hyundai-tucson-white-1.jpg`
+
+**Mitsubishi ASX (red)** — year/mileage still need confirming, see `data/vehicles.json`
+- `mitsubishi-asx-red-1.jpg`
+
 ## Adding a new vehicle to the site
 
 1. Open `data/vehicles.json` and copy an existing vehicle entry as a template.

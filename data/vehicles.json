@@ -45,6 +45,42 @@
         "/images/vehicles/acura-mdx-engine.jpg",
         "/images/vehicles/acura-mdx-interior.jpg"
       ]
+    },
+    {
+      "id": "hyundai-tucson-white",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "year": 2017,
+      "price": "Sur demande",
+      "fuel": "Essence",
+      "transmission": "Automatique",
+      "mileage": "Kilométrage à confirmer",
+      "type": "Vente",
+      "description": {
+        "fr": "Hyundai Tucson blanc, SUV compact fiable et spacieux, idéal pour la ville comme pour la route.",
+        "en": "White Hyundai Tucson, a reliable and spacious compact SUV, ideal for city and road use alike."
+      },
+      "images": [
+        "/images/vehicles/hyundai-tucson-white-1.jpg"
+      ]
+    },
+    {
+      "id": "mitsubishi-asx-red",
+      "make": "Mitsubishi",
+      "model": "ASX",
+      "year": 2014,
+      "price": "Sur demande",
+      "fuel": "Essence",
+      "transmission": "Automatique",
+      "mileage": "Kilométrage à confirmer",
+      "type": "Vente",
+      "description": {
+        "fr": "Mitsubishi ASX rouge, SUV compact agile et économique, parfait pour un usage quotidien.",
+        "en": "Red Mitsubishi ASX, an agile and fuel-efficient compact SUV, perfect for daily use."
+      },
+      "images": [
+        "/images/vehicles/mitsubishi-asx-red-1.jpg"
+      ]
     }
   ]
 }
