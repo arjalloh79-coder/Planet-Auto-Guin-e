@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-dark-bg text-light-text;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  @apply text-crimson hover:opacity-80 transition-opacity;
+}
+
+button {
+  @apply transition-all duration-200;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E63946;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d62828;
+}
+
+/* Modal */
+.modal-backdrop {
+  @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50;
+}
+
+.modal-content {
+  @apply bg-dark-bg border-2 border-crimson rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto;
+}
+
+/* Search filters */
+.search-input {
+  @apply bg-gray-900 border border-crimson text-light-text rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-crimson;
+}
+
+.search-select {
+  @apply bg-gray-900 border border-crimson text-light-text rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-crimson cursor-pointer;
+}
+
+/* Vehicle card */
+.vehicle-card {
+  @apply bg-gray-900 border border-gray-800 rounded-lg overflow-hidden hover:border-crimson transition-all hover:shadow-lg hover:shadow-crimson/20;
+}
+
+.vehicle-image {
+  @apply w-full h-48 bg-gray-800 object-cover;
+}
+
+/* CTA Button */
+.btn-primary {
+  @apply bg-crimson hover:bg-red-700 text-white font-semibold py-2 px-4 rounded transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-gray-800 hover:bg-gray-700 text-light-text font-semibold py-2 px-4 rounded transition-colors border border-crimson;
+}
+
+.btn-outline {
+  @apply border-2 border-crimson text-crimson hover:bg-crimson hover:text-dark-bg font-semibold py-2 px-4 rounded transition-all;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 80px; /* Space for mobile sticky CTA */
+  }
+}
