@@ -1,124 +1,50 @@
 {
   "vehicles": [
     {
-      "id": 1,
-      "make": "Toyota",
-      "model": "Camry",
-      "year": 2022,
-      "price": 28000,
-      "type": "vente",
-      "image": "/images/cars/camry.jpg",
-      "km": 45000,
+      "id": "mazda-3-2008",
+      "make": "Mazda",
+      "model": "3",
+      "year": 2008,
+      "price": "Sur demande",
       "fuel": "Essence",
       "transmission": "Automatique",
-      "description_fr": "Toyota Camry 2022 en excellent état, entièrement révisée, climatisation fonctionnelle, intérieur cuir premium.",
-      "description_en": "Toyota Camry 2022 in excellent condition, fully serviced, functional air conditioning, premium leather interior.",
-      "specs": {
-        "seats": 5,
-        "color": "Argent",
-        "engine": "2.5L V6",
-        "horsepower": 203
-      }
+      "mileage": "117 000 km",
+      "type": "Vente",
+      "featured": true,
+      "badge": "Véhicule Vérifié & Garanti",
+      "description": {
+        "fr": "Mazda 3 2008 en excellent état. Conduite confortable et fiable, entretiens et papiers à jour.",
+        "en": "2008 Mazda 3 in excellent condition. Comfortable and reliable drive, fully serviced with up-to-date documentation."
+      },
+      "images": [
+        "/images/vehicles/mazda3-blue-1.jpg",
+        "/images/vehicles/mazda3-blue-2.jpg",
+        "/images/vehicles/mazda3-blue-3.jpg",
+        "/images/vehicles/mazda3-blue-interior.jpg"
+      ]
     },
     {
-      "id": 2,
-      "make": "Honda",
-      "model": "Civic",
-      "year": 2021,
-      "price": 22000,
-      "type": "vente",
-      "image": "/images/cars/civic.jpg",
-      "km": 38000,
-      "fuel": "Essence",
-      "transmission": "Manuelle",
-      "description_fr": "Honda Civic 2021, parfait pour la ville, économe en carburant, système audio premium.",
-      "description_en": "Honda Civic 2021, perfect for city driving, fuel-efficient, premium audio system.",
-      "specs": {
-        "seats": 5,
-        "color": "Noir",
-        "engine": "1.5L Turbo",
-        "horsepower": 174
-      }
-    },
-    {
-      "id": 3,
-      "make": "BMW",
-      "model": "X5",
-      "year": 2023,
-      "price": 65000,
-      "type": "location",
-      "image": "/images/cars/x5.jpg",
-      "km": 12000,
-      "fuel": "Diesel",
-      "transmission": "Automatique",
-      "description_fr": "BMW X5 2023, SUV de luxe, technologie de pointe, confort maximal pour vos déplacements.",
-      "description_en": "BMW X5 2023, luxury SUV, cutting-edge technology, maximum comfort for your trips.",
-      "specs": {
-        "seats": 7,
-        "color": "Blanc",
-        "engine": "3.0L Diesel Twin-Turbo",
-        "horsepower": 382
-      }
-    },
-    {
-      "id": 4,
-      "make": "Mercedes-Benz",
-      "model": "C-Class",
-      "year": 2022,
-      "price": 48000,
-      "type": "vente",
-      "image": "/images/cars/c-class.jpg",
-      "km": 52000,
+      "id": "acura-mdx-2024",
+      "make": "Acura",
+      "model": "MDX",
+      "year": 2024,
+      "price": "Sur demande",
       "fuel": "Essence",
       "transmission": "Automatique",
-      "description_fr": "Mercedes-Benz C-Class 2022, élégance et performance, navigation GPS, sièges chauffants.",
-      "description_en": "Mercedes-Benz C-Class 2022, elegance and performance, GPS navigation, heated seats.",
-      "specs": {
-        "seats": 5,
-        "color": "Gris Métallisé",
-        "engine": "2.0L Turbo",
-        "horsepower": 255
-      }
-    },
-    {
-      "id": 5,
-      "make": "Ford",
-      "model": "F-150",
-      "year": 2021,
-      "price": 35000,
-      "type": "location",
-      "image": "/images/cars/f150.jpg",
-      "km": 78000,
-      "fuel": "Essence",
-      "transmission": "Automatique",
-      "description_fr": "Ford F-150 2021, pick-up robuste, cargo spacieux, idéal pour le transport.",
-      "description_en": "Ford F-150 2021, robust pickup, spacious cargo, ideal for transportation.",
-      "specs": {
-        "seats": 5,
-        "color": "Bleu",
-        "engine": "5.0L V8",
-        "horsepower": 400
-      }
-    },
-    {
-      "id": 6,
-      "make": "Audi",
-      "model": "A4",
-      "year": 2023,
-      "price": 52000,
-      "type": "vente",
-      "image": "/images/cars/a4.jpg",
-      "km": 8000,
-      "fuel": "Essence",
-      "transmission": "Automatique",
-      "description_fr": "Audi A4 2023, design moderne, technologie Quattro AWD, intérieur spacieux et luxueux.",
-      "description_en": "Audi A4 2023, modern design, Quattro AWD technology, spacious and luxurious interior.",
-      "specs": {
-        "seats": 5,
-        "color": "Rouge",
-        "engine": "2.0L TFSI Turbo",
-        "horsepower": 261
-      }
+      "mileage": "Faible kilométrage",
+      "type": "Vente",
+      "featured": true,
+      "badge": "Luxe & Performance",
+      "description": {
+        "fr": "Acura MDX SUV de luxe noir, moteur V6 performant, intérieur cuir haute finition et toit panoramique.",
+        "en": "Black luxury Acura MDX SUV, high-performance V6 engine, premium leather interior, and panoramic roof."
+      },
+      "images": [
+        "/images/vehicles/acura-mdx-front.jpg",
+        "/images/vehicles/acura-mdx-side.jpg",
+        "/images/vehicles/acura-mdx-engine.jpg",
+        "/images/vehicles/acura-mdx-interior.jpg"
+      ]
     }
   ]
 }

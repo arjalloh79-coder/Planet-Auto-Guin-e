@@ -3,6 +3,7 @@
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { t } from '@/i18n/translations';
+import Logo from './Logo';
 
 export default function Footer() {
   const { language } = useLanguage();
@@ -17,9 +18,7 @@ export default function Footer() {
           {/* Business Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-crimson rounded-full flex items-center justify-center">
-                <span className="text-dark-bg font-bold text-lg">🚗</span>
-              </div>
+              <Logo className="w-12 h-12" />
               <div>
                 <h3 className="font-bold text-light-text">Planet Auto Guinea</h3>
                 <p className="text-xs text-crimson">Timbi Store</p>
