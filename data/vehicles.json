@@ -16,12 +16,7 @@
         "fr": "Mazda 3 2008 en excellent état. Conduite confortable et fiable, entretiens et papiers à jour.",
         "en": "2008 Mazda 3 in excellent condition. Comfortable and reliable drive, fully serviced with up-to-date documentation."
       },
-      "images": [
-        "/images/vehicles/mazda3-blue-1.jpg",
-        "/images/vehicles/mazda3-blue-2.jpg",
-        "/images/vehicles/mazda3-blue-3.jpg",
-        "/images/vehicles/mazda3-blue-interior.jpg"
-      ]
+      "images": []
     },
     {
       "id": "acura-mdx-2024",

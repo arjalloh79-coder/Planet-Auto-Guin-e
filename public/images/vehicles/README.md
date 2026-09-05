@@ -12,8 +12,7 @@ Each vehicle in `data/vehicles.json` lists the exact filenames it expects in its
 - Toyota Matrix (red) — `toyota-matrix-red-1.jpg`
 - Toyota Corolla (blue) — `toyota-corolla-blue-1.jpg`
 
-**⏳ Still needs a photo — Mazda 3 (2008)**, referenced in `data/vehicles.json` as:
-- `mazda3-blue-1.jpg`, `mazda3-blue-2.jpg`, `mazda3-blue-3.jpg`, `mazda3-blue-interior.jpg`
+**⏳ Still needs a photo — Mazda 3 (2008)**. Its `images` array in `data/vehicles.json` is currently empty (shows the placeholder icon), so it doesn't reference any missing files. Once you have photos, save them here and add their paths to that array — e.g. `mazda3-blue-1.jpg`, `mazda3-blue-2.jpg`.
 
 **⚠️ Year/mileage are visual estimates, not confirmed** for: Hyundai Tucson, Mitsubishi ASX, Toyota Land Cruiser Prado, Toyota Matrix, Toyota Corolla — edit the `year` and `mileage` fields in `data/vehicles.json` once you have the real values.
 
