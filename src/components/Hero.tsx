@@ -12,9 +12,10 @@ interface SearchFilters {
 
 interface HeroProps {
   onSearch: (filters: SearchFilters) => void;
+  makes: string[];
 }
 
-export default function Hero({ onSearch }: HeroProps) {
+export default function Hero({ onSearch, makes }: HeroProps) {
   const { language } = useLanguage();
   const [filters, setFilters] = useState<SearchFilters>({
     make: '',
@@ -67,12 +68,11 @@ export default function Hero({ onSearch }: HeroProps) {
               className="search-select w-full"
             >
               <option value="">Tous</option>
-              <option value="toyota">Toyota</option>
-              <option value="honda">Honda</option>
-              <option value="bmw">BMW</option>
-              <option value="mercedes">Mercedes-Benz</option>
-              <option value="ford">Ford</option>
-              <option value="audi">Audi</option>
+              {makes.map((make) => (
+                <option key={make} value={make.toLowerCase()}>
+                  {make}
+                </option>
+              ))}
             </select>
           </div>
 

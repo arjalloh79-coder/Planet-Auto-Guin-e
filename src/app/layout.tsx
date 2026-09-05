@@ -16,6 +16,11 @@ export const metadata: Metadata = {
     'car rental',
   ],
   authors: [{ name: 'Planet Auto Guinea' }],
+  icons: {
+    icon: '/images/logo.png',
+    shortcut: '/images/logo.png',
+    apple: '/images/logo.png',
+  },
   openGraph: {
     title: 'Planet Auto Guinea',
     description: 'Vente & Location de Véhicules Américains et Européens',

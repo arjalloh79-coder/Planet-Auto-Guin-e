@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { t, Language } from '@/i18n/translations';
+import Logo from './Logo';
 
 export default function Header() {
   const { language, setLanguage } = useLanguage();
@@ -15,6 +16,7 @@ export default function Header() {
     { key: 'header.home', href: '#home' },
     { key: 'header.stock', href: '#inventory' },
     { key: 'header.rental', href: '#inventory' },
+    { key: 'header.videos', href: '#videos' },
     { key: 'header.accessories', href: '#timbi' },
     { key: 'header.contact', href: '#contact' },
   ];
@@ -24,9 +26,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-crimson rounded-full flex items-center justify-center">
-            <span className="text-dark-bg font-bold text-lg">🚗</span>
-          </div>
+          <Logo className="w-11 h-11" />
           <div className="flex flex-col">
             <span className="font-bold text-lg text-light-text">Planet Auto</span>
             <span className="text-xs text-crimson">Guinea</span>
