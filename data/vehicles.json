@@ -40,10 +40,7 @@
         "en": "Black luxury Acura MDX SUV, high-performance V6 engine, premium leather interior, and panoramic roof."
       },
       "images": [
-        "/images/vehicles/acura-mdx-front.jpg",
-        "/images/vehicles/acura-mdx-side.jpg",
-        "/images/vehicles/acura-mdx-engine.jpg",
-        "/images/vehicles/acura-mdx-interior.jpg"
+        "/images/vehicles/acura-mdx-front.jpg"
       ]
     },
     {
@@ -80,6 +77,60 @@
       },
       "images": [
         "/images/vehicles/mitsubishi-asx-red-1.jpg"
+      ]
+    },
+    {
+      "id": "toyota-land-cruiser-prado-black",
+      "make": "Toyota",
+      "model": "Land Cruiser Prado",
+      "year": 2020,
+      "price": "Sur demande",
+      "fuel": "Essence",
+      "transmission": "Automatique",
+      "mileage": "Kilométrage à confirmer",
+      "type": "Vente",
+      "description": {
+        "fr": "Toyota Land Cruiser Prado noir, SUV robuste et prestigieux, parfait pour la ville comme pour les routes difficiles.",
+        "en": "Black Toyota Land Cruiser Prado, a rugged and prestigious SUV, perfect for both city driving and rough roads."
+      },
+      "images": [
+        "/images/vehicles/toyota-land-cruiser-prado-black-1.jpg"
+      ]
+    },
+    {
+      "id": "toyota-matrix-red",
+      "make": "Toyota",
+      "model": "Matrix",
+      "year": 2010,
+      "price": "Sur demande",
+      "fuel": "Essence",
+      "transmission": "Automatique",
+      "mileage": "Kilométrage à confirmer",
+      "type": "Vente",
+      "description": {
+        "fr": "Toyota Matrix rouge, compacte pratique et économique, idéale pour la conduite en ville.",
+        "en": "Red Toyota Matrix, a practical and fuel-efficient compact, ideal for city driving."
+      },
+      "images": [
+        "/images/vehicles/toyota-matrix-red-1.jpg"
+      ]
+    },
+    {
+      "id": "toyota-corolla-blue",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2020,
+      "price": "Sur demande",
+      "fuel": "Essence",
+      "transmission": "Automatique",
+      "mileage": "Kilométrage à confirmer",
+      "type": "Vente",
+      "description": {
+        "fr": "Toyota Corolla bleue, berline fiable et moderne, parfaite pour un usage quotidien confortable.",
+        "en": "Blue Toyota Corolla, a reliable and modern sedan, perfect for comfortable daily use."
+      },
+      "images": [
+        "/images/vehicles/toyota-corolla-blue-1.jpg"
       ]
     }
   ]

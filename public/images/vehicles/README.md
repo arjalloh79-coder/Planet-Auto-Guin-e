@@ -2,25 +2,20 @@
 
 Each vehicle in `data/vehicles.json` lists the exact filenames it expects in its `images` array. Save your photos here using those exact names and they'll appear automatically — no code changes needed. Until a file is uploaded, the site shows a placeholder icon in its place, so nothing breaks.
 
-## Currently expected
+## Status
 
-**Mazda 3 (2008)**
-- `mazda3-blue-1.jpg`
-- `mazda3-blue-2.jpg`
-- `mazda3-blue-3.jpg`
-- `mazda3-blue-interior.jpg`
+**✅ Have a real photo:**
+- Acura MDX — `acura-mdx-front.jpg` (front only; add `acura-mdx-side.jpg` / `-engine.jpg` / `-interior.jpg` and list them in `data/vehicles.json` for more angles)
+- Hyundai Tucson (white) — `hyundai-tucson-white-1.jpg`
+- Mitsubishi ASX (red) — `mitsubishi-asx-red-1.jpg`
+- Toyota Land Cruiser Prado (black) — `toyota-land-cruiser-prado-black-1.jpg`
+- Toyota Matrix (red) — `toyota-matrix-red-1.jpg`
+- Toyota Corolla (blue) — `toyota-corolla-blue-1.jpg`
 
-**Acura MDX (2024)**
-- `acura-mdx-front.jpg`
-- `acura-mdx-side.jpg`
-- `acura-mdx-engine.jpg`
-- `acura-mdx-interior.jpg`
+**⏳ Still needs a photo — Mazda 3 (2008)**, referenced in `data/vehicles.json` as:
+- `mazda3-blue-1.jpg`, `mazda3-blue-2.jpg`, `mazda3-blue-3.jpg`, `mazda3-blue-interior.jpg`
 
-**Hyundai Tucson (white)** — year/mileage still need confirming, see `data/vehicles.json`
-- `hyundai-tucson-white-1.jpg`
-
-**Mitsubishi ASX (red)** — year/mileage still need confirming, see `data/vehicles.json`
-- `mitsubishi-asx-red-1.jpg`
+**⚠️ Year/mileage are visual estimates, not confirmed** for: Hyundai Tucson, Mitsubishi ASX, Toyota Land Cruiser Prado, Toyota Matrix, Toyota Corolla — edit the `year` and `mileage` fields in `data/vehicles.json` once you have the real values.
 
 ## Adding a new vehicle to the site
 

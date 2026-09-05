@@ -1,15 +1,13 @@
 # Images Folder
 
-## Logo (needed now)
+## Logo — ✅ done
 
-Save your logo file here as:
-
-```
-public/images/logo.png
-```
-
-This single file is used everywhere: header, footer, and browser tab icon (favicon). Recommended: square image (min. 200×200px). The site works fine without it too — it just falls back to a red circular icon until you add it.
+`logo.png` is in place and used everywhere: header, footer, and browser tab icon (favicon).
 
 ## Vehicle photos
 
-See `public/images/vehicles/README.md` for the exact filenames each car expects.
+See `public/images/vehicles/README.md` for the exact filenames each car expects and what's still missing.
+
+## Gallery (unused for now)
+
+`public/images/gallery/` holds photos that arrived but aren't wired into any page yet: three "our lot" group shots (several vehicles in one frame — not usable as a single-vehicle card) and the printed promo flyer. Nothing currently references them; they're just organized here in case you want a "browse our lot" gallery section or a promo banner built later.
