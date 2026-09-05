@@ -40,7 +40,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'videos.watch_facebook': 'Voir sur Facebook',
     'videos.follow_cta': 'Suivez-nous sur Facebook pour ne manquer aucun arrivage',
 
-    'footer.address': 'Nongo Conteah, Conakry, Guinée',
+    'footer.address': 'Nongo Morykanteah, Conakry, Guinée',
     'footer.phone': 'Téléphone / WhatsApp',
     'footer.copyright': '© 2024 Planet Auto Guinea. Tous droits réservés.',
 
@@ -90,7 +90,7 @@ export const translations: Record<Language, Record<string, string>> = {
     'videos.watch_facebook': 'Watch on Facebook',
     'videos.follow_cta': 'Follow us on Facebook to catch every new arrival',
 
-    'footer.address': 'Nongo Conteah, Conakry, Guinea',
+    'footer.address': 'Nongo Morykanteah, Conakry, Guinea',
     'footer.phone': 'Phone / WhatsApp',
     'footer.copyright': '© 2024 Planet Auto Guinea. All rights reserved.',
 

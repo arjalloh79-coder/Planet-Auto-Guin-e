@@ -89,6 +89,13 @@ export default function Footer() {
                 <span>+224 623 22 98 68</span>
               </a>
               <a
+                href="tel:+224613871251"
+                className="flex items-center gap-2 text-gray-text hover:text-crimson transition-colors"
+              >
+                <span>📞</span>
+                <span>+224 613 87 12 51</span>
+              </a>
+              <a
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -98,11 +105,11 @@ export default function Footer() {
                 <span>WhatsApp</span>
               </a>
               <a
-                href="mailto:info@planetautoguinea.com"
+                href="mailto:drafiouunkut@gmail.com"
                 className="flex items-center gap-2 text-gray-text hover:text-crimson transition-colors"
               >
                 <span>✉️</span>
-                <span>Email</span>
+                <span>drafiouunkut@gmail.com</span>
               </a>
             </div>
           </div>
